@@ -1,0 +1,20 @@
+{
+  "name": "biz-facade",
+  "private": true,
+  "version": "1.0.0",
+  "description": "api service facade",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm start",
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "dev2geek",
+    "email": "dev2geek@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^0.34.0",
+    "urllib": "^2.25.1"
+  }
+}

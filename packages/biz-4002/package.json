@@ -1,0 +1,25 @@
+{
+  "name": "biz-4002",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Location Service",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc -p ./src/tsconfig.json",
+    "prepare": "npm run build & npm start",
+    "start": "node dist/index.js"
+  },
+  "author": {
+    "name": "dev2geek",
+    "email": "dev2geek@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@loopback/core": "^4.0.0-alpha.22",
+    "@loopback/rest": "^4.0.0-alpha.9",
+    "@types/node": "^8.0.53"
+  }
+}

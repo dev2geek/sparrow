@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017", /* For Node.js v8, use "es2017"; for Node.js v6, use "es6" */
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "../dist",
+    "sourceMap": true
+  },
+  "files": [
+    "index.ts"
+  ]
+}

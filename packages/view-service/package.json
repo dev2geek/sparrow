@@ -1,0 +1,16 @@
+{
+  "name": "view-service",
+  "private": true,
+  "author": {
+    "name": "dev2geek",
+    "email": "dev2geek@gmail.com"
+  },
+  "scripts": {
+    "start": "meteor run",
+    "prepare": "npm start"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "meteor-node-stubs": "^0.3.2"
+  }
+}

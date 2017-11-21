@@ -1,0 +1,18 @@
+<body>
+<div class="container">
+    <header>
+        <h1>Sparrow Tweets ({{tweetableCount}})</h1>
+        <label class="hide-silent">
+            <input type="checkbox" />
+            Hide Silent Birds
+        </label>
+        <form class="new-bird">
+            <input type="text" name="text" placeholder="Type to add new birds to join twittering" />
+        </form>
+    </header>
+
+    <ul>
+        {{#each birds}} {{> bird}} {{/each}}
+    </ul>
+</div>
+</body>

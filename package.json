@@ -1,0 +1,26 @@
+{
+  "name": "sparrow",
+  "version": "1.0.0",
+  "description": "a sparrow project, tiny but holonomic",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "npm run clean & lerna bootstrap",
+    "clean": "lerna clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev2geek/sparrow.git"
+  },
+  "author": {
+    "name": "dev2geek",
+    "email": "dev2geek@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev2geek/sparrow/issues"
+  },
+  "homepage": "https://github.com/dev2geek/sparrow#readme",
+  "devDependencies": {
+    "lerna": "^2.5.1"
+  }
+}

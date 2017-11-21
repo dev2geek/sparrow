@@ -1,0 +1,23 @@
+{
+  "name": "biz-4001",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Health Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prepare": "redis-server /usr/local/etc/redis.conf & npm start"
+  },
+  "author": {
+    "name": "dev2geek",
+    "email": "dev2geek@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "redis": "^2.8.0"
+  }
+}
