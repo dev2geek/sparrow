@@ -4,9 +4,10 @@
   "description": "a sparrow project, tiny but holonomic",
   "main": "index.js",
   "scripts": {
-    "start": "lerna run start",
-    "bootstrap": "npm run clean & lerna bootstrap",
-    "clean": "lerna clean"
+    "start": "./node_modules/.bin/lerna run start",
+    "launch": "npm run bootstrap; npm start",
+    "bootstrap": "npm run clean; ./node_modules/.bin/lerna bootstrap",
+    "clean": "./node_modules/.bin/lerna clean --yes"
   },
   "repository": {
     "type": "git",
