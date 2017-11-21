@@ -6,8 +6,8 @@
     "email": "dev2geek@gmail.com"
   },
   "scripts": {
-    "start": "meteor run",
-    "prepare": "npm start"
+    "start": "export METEOR_ALLOW_SUPERUSER=1; meteor run > stdout.log &",
+    "dev": "meteor run"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0",

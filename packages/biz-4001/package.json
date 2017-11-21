@@ -5,8 +5,9 @@
   "description": "Health Service",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "prepare": "redis-server /usr/local/etc/redis.conf & npm start"
+    "dev": "node index.js",
+    "redis-dev": "redis-server /usr/local/etc/redis.conf &",
+    "start": "node index.js > stdout.log &"
   },
   "author": {
     "name": "dev2geek",

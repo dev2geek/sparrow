@@ -4,6 +4,7 @@
   "description": "a sparrow project, tiny but holonomic",
   "main": "index.js",
   "scripts": {
+    "start": "lerna run start",
     "bootstrap": "npm run clean & lerna bootstrap",
     "clean": "lerna clean"
   },
@@ -20,7 +21,7 @@
     "url": "https://github.com/dev2geek/sparrow/issues"
   },
   "homepage": "https://github.com/dev2geek/sparrow#readme",
-  "devDependencies": {
+  "dependencies": {
     "lerna": "^2.5.1"
   }
 }

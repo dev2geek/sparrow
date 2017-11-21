@@ -5,8 +5,8 @@
   "description": "api service facade",
   "main": "index.js",
   "scripts": {
-    "prepare": "npm start",
-    "start": "node index.js"
+    "start": "node index.js > stdout.log &",
+    "dev": "node index.js"
   },
   "author": {
     "name": "dev2geek",
