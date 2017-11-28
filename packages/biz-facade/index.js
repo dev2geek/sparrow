@@ -1,3 +1,7 @@
+require('pmx').init({
+  transactions : true
+});
+
 const fastify = require('fastify')();
 const viewRoutes = require('./routes/index');
 

@@ -20,6 +20,7 @@
   "dependencies": {
     "@loopback/core": "^4.0.0-alpha.22",
     "@loopback/rest": "^4.0.0-alpha.9",
-    "@types/node": "^8.0.53"
+    "@types/node": "^8.0.53",
+    "pmx": "^1.5.5"
   }
 }

@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "fastify": "^0.34.0",
+    "pmx": "^1.5.5",
     "urllib": "^2.25.1"
   }
 }

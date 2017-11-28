@@ -7,7 +7,8 @@
     "start": "./node_modules/.bin/lerna run start",
     "launch": "npm run bootstrap; npm start",
     "bootstrap": "npm run clean; ./node_modules/.bin/lerna bootstrap",
-    "clean": "./node_modules/.bin/lerna clean --yes"
+    "clean": "./node_modules/.bin/lerna clean --yes",
+    "fire": "node ./test/fire.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/dev2geek/sparrow#readme",
   "dependencies": {
     "lerna": "^2.5.1"
+  },
+  "devDependencies": {
+    "autocannon": "^0.16.5"
   }
 }
